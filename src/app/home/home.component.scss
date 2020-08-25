@@ -1,0 +1,214 @@
+
+#home-bg {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+}
+
+.page-header   {
+   position: fixed;
+   top: 8%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 1.7vw;
+   color: white;
+   margin: 0;
+   padding: .1vw 1.6vw .1vw 1.6vw;
+   border: 1px solid white;
+}
+
+.media-links   {
+   position: absolute;
+   top: 1.8%;
+   right: 3%;
+   width: 20%;
+   height: auto;
+}
+
+.media-links i {
+   float: right;
+   padding: 1vw;
+   color: white;
+   font-size: 2vw;
+}
+
+.media-links i:hover {
+   cursor: pointer;
+   color: #babab9;
+   font-size: 2.1vw;
+}
+
+#homeTxtBox {
+   position: absolute;
+   top: 56%;
+   width: 100%;
+}
+
+.lead {
+   text-align: center;
+   font-size: 1.5vw;
+   padding-top: 1.5vw;
+   color: #f4ffff;
+}
+
+.portrait   {
+   position: absolute;
+   top: 36.5%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 20%;
+   height: auto;
+   border: 2px solid rgba(194, 194, 194, 0.91);
+   background-color: rgba(0, 0, 0, 0.49);
+   border-radius: 50%;
+}
+
+#quote   {
+   position: absolute;
+   bottom: 5%;
+   left: 13%;
+   width: 68%;
+   height: auto;
+}
+
+.clouds  {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   z-index: -1;
+}
+
+.quote2  {
+   visibility: hidden;
+}
+
+.forest  {
+   visibility: hidden;
+}
+
+#quoteAuthor   {
+ position: absolute;
+   bottom: 0;
+   left: 45%;
+}
+
+@media screen and(max-width: 1300px)   {
+
+   .quote2  {
+      visibility: hidden;
+   }
+
+   .forest  {
+      visibility: hidden;
+   }
+
+   .page-header  {
+      top: 9%;
+   }
+
+   .display-1  {
+      font-size: 4.5vw;
+   }
+
+   .portrait   {
+      top: 40%;
+   }
+
+   #homeTxtBox {
+      top: 59%;
+
+   }
+
+   #quoteAuthor   {
+      bottom: -2%;
+   }
+
+}
+
+@media screen and(max-width: 576px) {
+
+
+   #home-bg  {
+      visibility: hidden;
+   }
+
+   .clouds  {
+      visibility: hidden;
+   }
+
+   .page-header  {
+      position: absolute;
+      top: .5%;
+      left: 68%;
+      width: 20%;
+      text-align: right;
+      transform: none;
+      border: none;
+   }
+
+   .display-1  {
+      font-size: 10vw;
+   }
+
+   .media-links {
+      position: absolute;
+      top: 62%;
+      left: 28%;
+      width: 44%;
+      text-align: center;
+   }
+
+   .media-links i {
+      float: left;
+      font-size: 9vw;
+      margin-right: 8%;
+   }
+
+   .portrait   {
+      position: absolute;
+      top: 29%;
+      width: 65%;
+      border: none;
+      z-index: -1;
+   }
+
+   .forest  {
+      visibility: visible;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+   }
+
+   .lead {
+      font-size: 6vw;
+      padding: 0 .5vw 0 .5vw;
+   }
+
+   #homeTxtBox {
+      top: 48%;
+      z-index: -1;
+   }
+
+   #quote   {
+      visibility: hidden;
+   }
+
+   .quote2  {
+      visibility: visible;
+      position: absolute;
+      bottom: 2.5%;
+      left: 1%;
+      width: 98%;
+      height: auto;
+      z-index: -1;
+   }
+
+   #quoteAuthor   {
+      font-size: 4vw;
+      bottom: -2%;
+      left: 34%;
+   }
+
+}

@@ -1,0 +1,58 @@
+<img [src]="pen" alt="pen writing on pad, has black ink" class="penBg" />
+<h1 class="display-3" id="samples-header">Writing Samples</h1>
+
+<div class="content-container">
+   <blockquote class="blockquote">
+      Below you will find a few examples of my projects that I created for
+      the Hospitality Catering and Event Management class that was in charge of
+      planning the Hospitality Gala 2020. Through these projects I have learned so
+      much about communication and presentation. The writing samples include my color scheme
+      inspiration document that was chosen as the Gala 2020 color scheme. Further, it includes
+      a centerpiece assignment that required the team to find inspiration
+      for our arrangements and quotes from different vendors. Lastly, you will see a link
+      to the MoodBoard that the team created to present to the leadership team in hopes that it will be
+      incorporated into the Gala for 2020.
+   </blockquote>
+</div>
+
+<div class="filesAndLinksBox">
+   <a class="sample1" [href]="sample1" download>
+      <i class="far fa-file-pdf" id="sample1Icon"></i> Color Scheme
+   </a>
+   <a class="sample2" [href]="sample2" download>
+      <i class="far fa-file-pdf" id="sample2Icon"></i> Centerpiece Assignment
+   </a>
+   <a class="mood-brd" target="_blank" [href]="moodBoardLink">
+      <img [src]="milanote" alt="link to mood board website"
+           class="mood" />MoodBoard
+   </a>
+
+</div>
+
+<!-- HTML for mobile devices -->
+<div class="jumbotron">
+   <h1 class="display-4">Samples and Links!</h1>
+   <p class="lead">
+      Below you will find a few examples of my projects that I created for
+      the Hospitality Catering and Event Management class that was in charge of
+      planning the Hospitality Gala 2020. Through these projects I have learned so
+      much about communication and presentation. The writing samples include my color scheme
+      inspiration document that was chosen as the Gala 2020 color scheme. Further, it includes
+      a centerpiece assignment that required the team to find inspiration
+      for our arrangements and quotes from different vendors. Lastly, you will see a link
+      to the MoodBoard that the team created to present to the leadership team in hopes that it will be
+      incorporated into the Gala for 2020.
+   </p>
+   <hr class="my-4" style="border: .1vw solid white">
+   <p class="lead">Downloads and Links</p>
+   <a class="btn btn-primary btn-lg" [href]="sample1"
+      role="button" download=""><i class="far fa-file-pdf"></i> Color Scheme
+   </a>
+   <a class="btn btn-primary btn-lg" [href]="sample2"
+      role="button"><i class="far fa-file-pdf"></i> Centerpiece Assignment
+   </a>
+   <a class="btn btn-primary btn-lg" target="_blank"
+      [href]="moodBoardLink" role="button"><img [src]="milanote" alt="link to mood board website"
+      class="mood" />MoodBoard
+   </a>
+</div>

@@ -1,0 +1,185 @@
+<div class="education-header" id="education-header">
+   <h1 class="display-3">Education</h1>
+</div>
+<div class="topScreen-overlayBox"></div>
+
+<img [src]="educationBg" alt="Auburn University in Alabama" class="education-bg" />
+<img [src]="secondBackground" alt="toomers corner" class="toomersBg" />
+<div class="writingSample-link-box">
+   <h1 class="display-4" id="aubieTxt">Click Aubie to see Writing Samples</h1>
+   <a class="writing-samples" target="_self" [routerLink]="['/writing/samples']">
+      <img [src]="aubie" alt="Aubie, the Auburn University mascot" class="aubie" />
+   </a>
+</div>
+
+<div class="AU-top">
+   <p class="h4">Auburn University</p>
+</div>
+<div class="AU-grad-info">
+   <p class="h5" id="gradTitle">
+      <u>Graduation Information</u>
+   </p>
+   <p class="blockquote" id="grad-info-txt">
+      Auburn, AL
+      <br>
+      Bachelor of Science
+      <br>
+      Hospitality Event Management
+      <br>
+      Business Minor
+      <br>
+      In Progress: December 2020</p>
+</div>
+<div class="specialAch">
+   <p class="h5" id="achievementsTitle">
+      <u>Special Academic Achievements</u>
+   </p>
+   <p class="blockquote" id="achievementsTxt">
+      ServSafe 2019
+   </p>
+   <p class="h5" id="awardsTitle">
+      <u>Awards</u>
+   </p>
+   <p class="blockquote" id="awardsTxt">
+      Dean’s list: Spring 2018, Fall 2018, Spring 2019
+   </p>
+
+</div>
+<div class="switching-major">
+   <p class="blockquote" id="major-changeTxt">
+      From the moment I switched majors to Hospitality, I knew I was in the right place. Through the dedication and passion I witnessed
+      from the professors and the opportunities they fought so hard for us to have access to, I knew that I was going to get the best
+      education and the best experiences from them. I watched my brother go through the program before me, I too witnessed his passion grow
+      more and more for hospitality and I wanted to be a part of it as well. Through the advisory boards, guest lecturers, study abroad
+      opportunities, wine education, culinary education, and much more that the program provides, I can feel confident in entering the
+      hospitality industry knowing that I was provided with the tools to succeed.
+   </p>
+</div>
+<div class="AU-courses">
+   <p class="h5" id="topOfCourses">
+      Helpful courses from the program</p>
+   <p class="blockquote">
+      <u><b>Event Operations</b></u>
+   </p>
+   <p class="lead">
+      I was able to learn the various components that are important to the planning and operations of hospitality events.
+      Topics such as strategic planning, event design, logistics, staging, audience accommodation, and food and beverage
+      were discussed.
+   </p>
+   <p class="blockquote">
+      <u><b>Food Production</b></u>
+   </p>
+   <p class="lead">
+      Food Production in Hospitality provided me with theoretical and management concepts surrounding front and back of the house
+      culinary operations. The other students and I were given the ability to demonstrate standards, techniques, and practices by
+      creating a meal service event, including the menu development, ticket sales, food production, cost analysis, and service of meals.
+   </p>
+   <p class="blockquote">
+      <u><b>Special Events</b></u>
+   </p>
+   <p class="lead">
+      I learned about the intricacies of special events and I engaged in the planning, management, execution, and evaluation of an event.
+      The course “client” that the course had was the Samuel Ginn College of Engineering, Office of Career Development and Corporate Relations.
+   </p>
+   <p class="blockquote">
+      <u><b>Food and Beverage Management</b></u>
+   </p>
+   <p class="lead">
+      I developed a better understanding of the food service industry and the management of food and beverage operations within the
+      industry. I learned about the topics regarding current  issues  and  trends  affecting the industry, food safety, safe environments
+      for workers and consumers, menu planning, conceptual design and site selection, purchasing, receiving, storing, and inventory,
+      food and beverage production, and service.
+   </p>
+   <p class="blockquote">
+      <u><b>Catering and Events Management</b></u>
+   </p>
+   <p class="lead">
+      This course emphasizes the management and organizational techniques employed in the catering and special events industry.
+      I was given a background to the events management industry and I learned about the art of catering and special events.
+   </p>
+</div>
+
+<!-- Html for mobile devices -->
+<div class="page-content" *ngIf="width <= 576">
+   <div class="card" style="width: 100%;">
+      <img [src]="mobilDeviceBg" class="card-img-top" alt="Auburn university">
+      <div class="card-body">
+         <h5 class="card-title" style="text-align: center;">Auburn University</h5>
+         <br>
+         <h6 class="card-subtitle mb-md-2 text-muted">Graduation Information</h6>
+         <p class="card-text">
+            Auburn, AL
+            <br>
+            Bachelor of Science
+            <br>
+            Hospitality Event Management
+            <br>
+            Business Minor
+            <br>
+            In Progress: December 2020
+         </p>
+         <br>
+         <h6 class="card-subtitle mb-md-2 text-muted">Special Achievements</h6>
+         <p class="card-text">
+            ServSafe 2019
+         </p>
+         <br>
+         <h6 class="card-subtitle mb-md-2 text-muted">Awards</h6>
+         <p class="card-text">Dean’s list: Spring 2018, Fall 2018, Spring 2019.</p>
+         <br>
+         <h5 class="card-title" style="text-align: center;">Why Hospitality</h5>
+         <p class="card-text">
+            From the moment I switched majors to Hospitality, I knew I was in the right place. Through the dedication and passion I witnessed
+            from the professors and the opportunities they fought so hard for us to have access to, I knew that I was going to get the best
+            education and the best experiences from them. I watched my brother go through the program before me, I too witnessed his passion grow
+            more and more for hospitality and I wanted to be a part of it as well. Through the advisory boards, guest lecturers, study abroad
+            opportunities, wine education, culinary education, and much more that the program provides, I can feel confident in entering the
+            hospitality industry knowing that I was provided with the tools to succeed.
+         </p>
+      </div>
+   </div>
+   <div class="spacerBg"></div>
+   <div class="card" style="width: 100%;">
+      <img [src]="auburnLogo" class="card-img-top" alt="auburn logo" id="logo">
+      <div class="card-body">
+         <h5 class="card-title">Helpful courses from the program</h5>
+         <h6 class="card-subtitle mb-md-2 text-muted">Event Operations</h6>
+         <br>
+         <p class="card-text">
+            I was able to learn the various components that are important to the planning and operations of hospitality events.
+            Topics such as strategic planning, event design, logistics, staging, audience accommodation, and food and beverage
+            were discussed.
+         </p>
+         <br>
+         <h6 class="card-subtitle mb-md-2 text-muted">Food Production</h6>
+         <p class="card-text">
+            Food Production in Hospitality provided me with theoretical and management concepts surrounding front and back of the house
+            culinary operations. The other students and I were given the ability to demonstrate standards, techniques, and practices by
+            creating a meal service event, including the menu development, ticket sales, food production, cost analysis, and service of meals.
+         </p>
+         <br>
+         <h6 class="card-subtitle mb-md-2 text-muted">Special Events</h6>
+         <p class="card-text">
+            I learned about the intricacies of special events and I engaged in the planning, management, execution, and evaluation of an event.
+            The course “client” that the course had was the Samuel Ginn College of Engineering, Office of Career Development and Corporate Relations.
+         </p>
+         <br>
+         <h6 class="card-subtitle mb-md-2 text-muted">Food and Beverage Management</h6>
+         <p class="card-text">
+            I developed a better understanding of the food service industry and the management of food and beverage operations within the
+            industry. I learned about the topics regarding current  issues  and  trends  affecting the industry, food safety, safe environments
+            for workers and consumers, menu planning, conceptual design and site selection, purchasing, receiving, storing, and inventory,
+            food and beverage production, and service.
+         </p>
+         <br>
+         <h6 class="card-subtitle mb-md-2 text-muted">Catering and Events Management</h6>
+         <p class="card-text">
+            This course emphasizes the management and organizational techniques employed in the catering and special events industry.
+            I was given a background to the events management industry and I learned about the art of catering and special events.
+         </p>
+         <br>
+         <a target="_self"
+            [routerLink]="['/writing/samples']" class="btn btn-primary" style="margin-left: 15%;">Click for Writing Samples Page</a>
+      </div>
+   </div>
+</div>

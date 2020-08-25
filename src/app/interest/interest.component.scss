@@ -1,0 +1,187 @@
+
+.rosesBg   {
+   position: absolute;
+   width: 100%;
+   height: 130%;
+   z-index: -2;
+}
+
+.rosesBg2   {
+   position: absolute;
+   top: 130%;
+   width: 100%;
+   height: 130%;
+   transform: rotate(180deg);
+   z-index: -2;
+}
+
+.pageTitleBox  {
+   position: relative;
+   width: 100%;
+   height: 10%;
+   padding-top: 1vw;
+   padding-bottom: 7vw;
+   text-align: center;
+}
+
+.display-3   {
+   width: 18%;
+   color: white;
+   font-size: 3.8vw;
+   margin-left: 40%;
+   padding: .4vw 1.6vw .6vw 1.6vw;
+   border: 1px solid white;
+}
+
+.floralDesign  {
+   float: left;
+   margin-left: 6.5%;
+   width: 42%;
+   height: auto;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.51);
+   border-radius: 20px;
+   margin-bottom: 3vw;
+}
+
+.culinary   {
+   float: right;
+   margin-right: 6.5%;
+   width: 42%;
+   height: auto;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.51);
+   border-radius: 20px;
+   margin-bottom: 6vw;
+}
+
+.wine   {
+   float: left;
+   margin-left: 29%;
+   width: 42%;
+   height: auto;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.51);
+   border-radius: 20px;
+   margin-bottom: 3vw;
+}
+
+.pieChart   {
+   position: absolute;
+   top: 107%;
+   left: 3%;
+   width: 24%;
+   height: auto;
+   background-color: rgba(255, 255, 255, 0.52);
+   border-radius: 40px;
+}
+
+.masterSom  {
+   position: absolute;
+   top: 108%;
+   right: 3%;
+   width: 24%;
+   height: auto;
+   border-radius: 40px;
+}
+
+.blockquote {
+   position: relative;
+   text-align: center;
+   font-size: 2vw;
+}
+
+.lead {
+   padding: 1vw;
+   font-size: 1.2vw;
+}
+
+#carouselExampleFade {
+   position: absolute;
+   top: 165%;
+   left: 10%;
+   width: 90%;
+   max-height: 773px;
+   padding: 0;
+   margin: 0;
+}
+
+.carousel-item {
+   width: 90%;
+   max-height: 773px;
+   margin: 1vw;
+}
+
+.carousel-control-next  {
+   padding-right: 11vw;
+}
+
+@media screen and(max-width: 1400px)   {
+
+   .rosesBg {
+      height: 155%;
+   }
+
+   .rosesBg2   {
+      top: 155%;
+      height: 140%;
+   }
+
+   .display-3  {
+      font-size: 4vw;
+   }
+
+   .pageTitleBox  {
+      padding-bottom: 3vw;
+   }
+
+   .floralDesign  {
+      width: 87%;
+      margin-bottom: 1vw;
+   }
+
+   .culinary   {
+      width: 87%;
+      margin-bottom: 1vw;
+   }
+
+   .wine {
+      margin-left: 6.5%;
+      width: 87%;
+      margin-bottom: 1vw;
+   }
+
+   .blockquote {
+      margin: 0;
+      padding: 0;
+      font-size: 1.8vw;
+   }
+
+   .lead {
+      font-size: 1.3vw;
+   }
+
+   .pieChart   {
+      top: 152%;
+      left: 29%;
+      width: 20%;
+      height: 38%;
+   }
+
+   .masterSom  {
+      top: 152%;
+      right: 29%;
+      width: 20%;
+      height: 38%;
+   }
+
+   #carouselExampleFade {
+      top: 195%;
+      max-height: 515px;
+   }
+
+   .carousel-item {
+      max-height: 515px;
+   }
+
+}

@@ -1,0 +1,182 @@
+
+.penBg   {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: -2;
+}
+
+.display-3   {
+   position: absolute;
+   top: 8%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: white;
+   font-size: 3.8vw;
+   margin: 0 0 6vw 0;
+   padding: .5vw 1.6vw .8vw 1.6vw;
+   border: 1px solid white;
+}
+
+.content-container   {
+   position: absolute;
+   top: 25%;
+   left: 10%;
+   width: 80%;
+   height: auto;
+   color: white;
+}
+
+.blockquote {
+   padding: 1vw;
+   font-weight: lighter;
+   font-size: 1.4vw;
+}
+
+.filesAndLinksBox {
+   position: absolute;
+   top: 68%;
+   left: 20%;
+   width: 60%;
+   height: 10%;
+   font-family: "Calibri Light", serif;
+   color: white;
+   border-radius: 25px;
+   background-color: rgba(0, 0, 0, 0.52);
+}
+
+
+.mood {
+   width: 30%;
+   height: auto;
+   margin: 0;
+   padding: 0;
+
+}
+
+.sample1   {
+   float: left;
+   margin-top: 1.2vw;
+   margin-left: 11%;
+   width: 20%;
+   color: white;
+   font-size: 1.5vw;
+   text-decoration: none;
+}
+
+.sample2   {
+   float: left;
+   margin-top: 1.2vw;
+   margin-left: 5%;
+   width: 30%;
+   color: white;
+   font-size: 1.5vw;
+   text-decoration: none;
+}
+
+.mood-brd   {
+   float: left;
+   width: 20%;
+   color: white;
+   font-size: 1.5vw;
+   margin-top: .7vw;
+   margin-left: 5%;
+   text-decoration: none;
+}
+
+#sample1Icon   {
+   color: red;
+   font-size: 1.7vw;
+   padding-right: 1%;
+}
+
+#sample2Icon   {
+   color: red;
+   font-size: 1.7vw;
+   padding-right: 1%;
+}
+
+a:hover {
+   cursor: pointer;
+   color: #babab9;
+   font-size: 1.6vw;
+}
+
+.jumbotron  {
+   visibility: hidden;
+}
+
+
+@media screen and (max-width: 1400px) {
+   .jumbotron  {
+      visibility: hidden;
+   }
+
+   .blockquote {
+      font-size: 1.65vw;
+   }
+
+   .filesAndLinksBox {
+      top: 75%;
+   }
+}
+
+@media screen and(max-width: 576px) {
+
+   .penBg   {
+      visibility: hidden;
+   }
+
+   .content-container   {
+      visibility: hidden;
+   }
+
+   .blockquote {
+      visibility: hidden;
+   }
+
+   .filesAndLinksBox {
+      visibility: hidden;
+   }
+
+   .filesAndLinksBox a  {
+      visibility: hidden;
+   }
+
+   h1.display-3   {
+      position: absolute;
+      top: 1%;
+      left: 27%;
+      width: 70%;
+      height: auto;
+      font-size: 9vw;
+      text-align: right;
+      transform: none;
+      border: none;
+   }
+
+   .jumbotron  {
+      visibility: visible;
+      margin: 2px;
+      background-color: #666666;
+      color: white;
+   }
+
+   a.btn {
+      width: 80%;
+      color: white;
+      background-color: black;
+      border: 1px solid darkgray;
+      margin: 2vw 0 1vw 10%;
+   }
+
+   i   {
+      color: red;
+   }
+
+   i {
+      color: red;
+   }
+
+}
