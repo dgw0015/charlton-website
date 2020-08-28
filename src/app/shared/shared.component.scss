@@ -127,9 +127,9 @@ a  {
 
 
 /* Styling for non-desktop sized screen, such as 15.6 inch laptops and 12 inch laptops*/
-@media screen and(max-width: 1400px)   {
+@media screen and(max-width: 1400px) {
 
-   .topHeader .open-btn   {
+   .topHeader .open-btn {
       color: white;
       font-size: 1.9vw;
       margin: 0;
@@ -139,37 +139,36 @@ a  {
    .open-btn i {
       font-size: 1.8vw;
    }
-
 }
 
-@media screen and(max-width: 576px) {
+   @media screen and(max-width: 576px) {
 
-   .overlay  {
-      visibility: hidden;
-   }
+      .overlay  {
+         visibility: hidden;
+      }
 
-   .topHeader  {
-      visibility: hidden;
-   }
+      .topHeader  {
+         visibility: hidden;
+      }
 
-   h5   {
-      font-size: 8.5vw;
-      text-decoration: underline;
-      text-decoration-style: dotted;
-      text-decoration-color: #0899a8;
-   }
+      h5   {
+         font-size: 8.5vw;
+         text-decoration: underline;
+         text-decoration-style: dotted;
+         text-decoration-color: #0899a8;
+      }
 
-   .text-muted a {
-      font-size: 6vw;
-      line-height: 50px;
-   }
+      .text-muted a {
+         font-size: 6vw;
+         line-height: 50px;
+      }
 
-   .media-links   {
-      visibility: hidden;
-   }
+      .media-links   {
+         visibility: hidden;
+      }
 
-   .topNav  {
-      visibility: visible;
-   }
+      .topNav  {
+         visibility: visible;
+      }
 
 }

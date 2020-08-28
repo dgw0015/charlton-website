@@ -2,18 +2,21 @@
    <h1 class="display-3">Education</h1>
 </div>
 <div class="topScreen-overlayBox"></div>
-
+<div class="media-links">
+   <a class="pinterestLink" target="_blank"
+      [href]="pinterest"><i class="fab fa-pinterest" id="firstLink"></i></a>
+   <a class="instagramLink" target="_blank" [href]="instagram"><i class="fab fa-instagram"></i></a>
+   <a class="linkedLink" target="_blank"
+      [href]="linkedin"><i class="fab fa-linkedin"></i></a>
+   <a class="facebookLink" target="_blank"
+      [href]="facebook"><i class="fab fa-facebook" id="lastLink"></i></a>
+</div>
 <img [src]="educationBg" alt="Auburn University in Alabama" class="education-bg" />
 <img [src]="secondBackground" alt="toomers corner" class="toomersBg" />
-<div class="writingSample-link-box">
-   <h1 class="display-4" id="aubieTxt">Click Aubie to see Writing Samples</h1>
-   <a class="writing-samples" target="_self" [routerLink]="['/writing/samples']">
-      <img [src]="aubie" alt="Aubie, the Auburn University mascot" class="aubie" />
-   </a>
-</div>
-
 <div class="AU-top">
-   <p class="h4">Auburn University</p>
+   <a class="AU-linkHeader" target="_blank" [href]="AUWebsite">
+      <p class="h4">Auburn University</p>
+   </a>
 </div>
 <div class="AU-grad-info">
    <p class="h5" id="gradTitle">
@@ -35,13 +38,17 @@
       <u>Special Academic Achievements</u>
    </p>
    <p class="blockquote" id="achievementsTxt">
-      ServSafe 2019
+      <a target="_blank" [href]="servSafeLink">ServSafe 2019</a>
+      <br>
+      <a target="_blank" [href]="cEventCsrt">Cevent Certification</a>
+      <br>
+      <a target="_blank" [href]="somLevel1Cert">Sommelier Level 1 Certification</a>
    </p>
    <p class="h5" id="awardsTitle">
       <u>Awards</u>
    </p>
    <p class="blockquote" id="awardsTxt">
-      Dean’s list: Spring 2018, Fall 2018, Spring 2019
+      Dean’s list: Spring 2018 to present.
    </p>
 
 </div>

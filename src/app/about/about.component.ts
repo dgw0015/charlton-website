@@ -11,6 +11,7 @@ export class AboutComponent implements OnInit {
   facebook: string;
   linkedin: string;
   pinterest: string;
+  instagram: string;
   aboutBg2: string;
   natureBg2: string;
   width = innerWidth;
@@ -21,6 +22,7 @@ export class AboutComponent implements OnInit {
     this.facebook = 'https://www.facebook.com/charlton.kam';
     this.linkedin = 'https://www.linkedin.com/in/charlton-kam-ba81b5176/';
     this.pinterest = 'https://www.pinterest.com/auburnthunder17/';
+    this.instagram = 'https://www.instagram.com/c.kam_design/';
     this.aboutBg2 = './assets/mobile-imgs/about.png';
     this.natureBg2 = './assets/mobile-imgs/natureBg2.png';
   }

@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {ScreenSizeService} from '../screenSize.service';
-import {Router} from '@angular/router';
-import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -17,10 +14,11 @@ export class HomeComponent implements OnInit {
  facebook: string;
  linkedin: string;
  pinterest: string;
+ instagram: string;
  forest: string;
 
 
-  constructor(private screenService: ScreenSizeService) {
+  constructor() {
     this.portrait = './assets/images/CEK-transparent.png';
     this.quoteImg = './assets/images/quote.png';
     this.homeBg = './assets/images/Mountains.png';
@@ -28,6 +26,7 @@ export class HomeComponent implements OnInit {
     this.facebook = 'https://www.facebook.com/charlton.kam';
     this.linkedin = 'https://www.linkedin.com/in/charlton-kam-ba81b5176/';
     this.pinterest = 'https://www.pinterest.com/auburnthunder17/';
+    this.instagram = 'https://www.instagram.com/c.kam_design/';
     this.forest = './assets/mobile-imgs/forest.png';
     this.quote2 = './assets/mobile-imgs/quote.png';
   }

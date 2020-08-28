@@ -1,4 +1,3 @@
-
 #home-bg {
    position: fixed;
    width: 100%;
@@ -7,7 +6,7 @@
 }
 
 .page-header   {
-   position: fixed;
+   position: absolute;
    top: 8%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -128,7 +127,6 @@
 
 @media screen and(max-width: 576px) {
 
-
    #home-bg  {
       visibility: hidden;
    }
@@ -154,8 +152,8 @@
    .media-links {
       position: absolute;
       top: 62%;
-      left: 28%;
-      width: 44%;
+      left: 20%;
+      width: 70%;
       text-align: center;
    }
 

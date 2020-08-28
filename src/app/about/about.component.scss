@@ -126,20 +126,7 @@ h1 {
 
 @media screen and(max-width: 550px) {
 
-   //.upperBg {
-   //   position: absolute;
-   //   top: 5%;
-   //   width: 100%;
-   //   height: 90%;
-   //   background-image: linear-gradient(to bottom, black 26%, aqua 40%, orange);
-   //   z-index: -2;
-   //}
-
    .natureBg   {
-      visibility: hidden;
-   }
-
-   .aboutBg {
       visibility: hidden;
    }
 
@@ -159,9 +146,8 @@ h1 {
    .aboutBg2   {
       visibility: visible;
       position: absolute;
-      top: 17%;
-      left: 5%;
-      width: 90%;
+      top: 10%;
+      width: 100%;
       height: auto;
       z-index: -1;
       border-radius: 20px;
@@ -210,8 +196,8 @@ h1 {
    .media-links   {
       position: absolute;
       top: 91%;
-      left: 22.5%;
-      width: 55%;
+      left: 15%;
+      width: 70%;
       height: 8%;
       padding: 5px 20px 5px 20px;
       z-index: 1;

@@ -33,25 +33,25 @@
    height: 18%;
 }
 
-.aubie   {
+.media-links   {
    position: absolute;
-   top: 4%;
-   right: 0;
-   width: 25%;
-   height: auto;
-   cursor: pointer;
-}
-
-.aubie:hover   {
-   cursor: pointer;
-   width: 26%;
+   top: 1.8%;
+   right: 3%;
+   width: 20%;
    height: auto;
 }
 
-#aubieTxt   {
-   margin: 3vw 0 1vw 1.2vw;
-   font-size: 1.4vw;
+.media-links i {
+   float: right;
+   padding: 1vw;
    color: white;
+   font-size: 2vw;
+}
+
+.media-links i:hover {
+   cursor: pointer;
+   color: #babab9;
+   font-size: 2.1vw;
 }
 
 .education-header {
@@ -129,7 +129,7 @@
 
 .specialAch {
    position: absolute;
-   top: 56%;
+   top: 55%;
    left: 5%;
    width: 45%;
    height: 43%;
@@ -153,7 +153,7 @@
 #awardsTitle   {
    text-align: center;
    font-size: 1.8vw;
-   padding-top: 3vw;
+   padding-top: 0.5vw;
 }
 
 #awardsTxt  {
